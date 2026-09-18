@@ -1,10 +1,5 @@
-const card = {
-  suit: "Hearts",
-  rank: "A"
-}
-
-function Card() {
-  return <h1>{card.rank} of {card.suit}</h1>
+function Card({rank, suit}) {
+  return <article><h1>{rank} of {suit}</h1></article>
 }
 
 export default Card;

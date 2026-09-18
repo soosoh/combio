@@ -6,6 +6,8 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Card />
+    <Card rank="A" suit="Hearts" />
+    <Card rank="2" suit="Hearts" />
+    <Card rank="3" suit="Hearts" />
   </StrictMode>,
 )
