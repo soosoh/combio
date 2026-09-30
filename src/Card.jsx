@@ -9,12 +9,19 @@ const colors = {
   Clubs: black
 }
 
+const select = () => {
+
+}
+
+
 function Card({ rank, suit }) {
   return <article style={
     {
-      color: colors[suit]
+      color: colors[suit],
+      display: "inline"
     }
-  } className="card">
+  } className="card"
+  onclick={select}>
     <h1>{rank} of {suit}</h1>
   </article >
 }
