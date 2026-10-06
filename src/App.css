@@ -1,0 +1,22 @@
+.card {
+    display: inline;
+
+    background-color: floralwhite;
+
+    margin: 20px;
+    padding: 20px;
+    border: none;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.card:hover {
+    background-color: color-mix(in srgb, floralwhite 90%, black 10%)
+}
+
+.cardText {
+    margin: 0px;
+    padding: 0px;
+}

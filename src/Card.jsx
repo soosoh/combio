@@ -15,15 +15,14 @@ const select = () => {
 
 
 function Card({ rank, suit }) {
-  return <article style={
+  return <button style={
     {
       color: colors[suit],
-      display: "inline"
     }
   } className="card"
   onclick={select}>
-    <h1>{rank} of {suit}</h1>
-  </article >
+    <h1 class="cardText">{rank} of {suit}</h1>
+  </button >
 }
 
 export default Card;
