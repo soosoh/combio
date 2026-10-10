@@ -1,7 +1,12 @@
+body {
+    background-color: floralwhite;
+}
+
 .card {
     display: inline;
+    /*position: absolute;*/
 
-    background-color: floralwhite;
+    background-color: white;
 
     margin: 20px;
     padding: 20px;
@@ -13,7 +18,7 @@
 }
 
 .card:hover {
-    background-color: color-mix(in srgb, floralwhite 90%, black 10%)
+    background-color: color-mix(in srgb, white 90%, black 10%)
 }
 
 .cardText {
